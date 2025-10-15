@@ -1,4 +1,8 @@
-# Chiri 🌸
+# Chiri 🌸 (With Astro Suite Obsidian Vault Included)
+
+This is a fork of the [Chiri](https://github.com/the3ash/astro-chiri) Astro theme with the [Astro Suite](https://github.com/davidvkimball/obsidian-astro-suite) Obsidian Vault.
+
+[Original Readme contents:]
 
 ![screenshot-light](public/screenshots/screenshot-light.png)
 ![screenshot-dark](public/screenshots/screenshot-dark.png)
