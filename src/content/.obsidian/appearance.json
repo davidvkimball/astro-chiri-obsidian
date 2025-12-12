@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Oxygen",
+  "showViewHeader": true,
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "custom-draggable-top-area-windows"
+  ],
+  "theme": "system",
+  "accentColor": ""
+}

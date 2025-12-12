@@ -1,0 +1,53 @@
+{
+  "defaultTemplate": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
+  "autoInsertProperties": true,
+  "dateFormat": "YYYY-MM-DD",
+  "enableCopyHeadingLink": true,
+  "copyHeadingLinkFormat": "astro",
+  "addTrailingSlashToLinks": true,
+  "enableOpenTerminalCommand": true,
+  "terminalProjectRootPath": "../..",
+  "enableTerminalRibbonIcon": false,
+  "enableOpenConfigFileCommand": true,
+  "configFilePath": "../config.ts",
+  "enableConfigRibbonIcon": false,
+  "contentTypes": [
+    {
+      "id": "content-type-1765495061807-msx01eagi",
+      "name": "Posts",
+      "folder": "posts",
+      "linkBasePath": "/",
+      "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
+      "enabled": true,
+      "creationMode": "file",
+      "indexFileName": "index",
+      "ignoreSubfolders": false,
+      "enableUnderscorePrefix": false
+    }
+  ],
+  "migrationCompleted": true,
+  "helpButtonReplacement": {
+    "enabled": false,
+    "commandId": "astro-composer:edit-astro-config",
+    "iconId": "wrench"
+  },
+  "linkBasePath": "/posts/",
+  "enableAutoRename": true,
+  "enableAutoInsertFrontmatter": true,
+  "draftStyle": "filename",
+  "postsFolder": "posts",
+  "creationMode": "file",
+  "indexFileName": "index",
+  "customContentTypes": [
+    {
+      "id": "content-type-1765495061807-msx01eagi",
+      "name": "Posts",
+      "folder": "posts",
+      "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
+      "enabled": true,
+      "linkBasePath": "/",
+      "creationMode": "file",
+      "indexFileName": "index"
+    }
+  ]
+}

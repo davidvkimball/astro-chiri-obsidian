@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "198f107993eae49f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fe67c054a95e3cf",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "bases/Home.base",
+                "viewName": "Posts"
+              },
+              "icon": "lucide-home",
+              "title": "Home"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6057ba15e8c0f989",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bd24838fb400ffe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88d0b30a7f727adc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0ff0d53c08e67245",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#blog",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2e31f0d7a204b55a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "4759808e288c48bb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "51c4c675a2d0ae22",
+    "type": "split",
+    "children": [
+      {
+        "id": "626fcc71ca8b9b44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7ce968778eb7992",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "bases/Home.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Home"
+            }
+          },
+          {
+            "id": "9de556ef714f5bb5",
+            "type": "leaf",
+            "state": {
+              "type": "seo-global-panel",
+              "state": {},
+              "icon": "search-check",
+              "title": "SEO audit: vault"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 431.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": true,
+      "graph:Open graph view": false,
+      "obsidian-git:Open Git source control": false,
+      "seo:Open SEO audit panel": false,
+      "zenmode:Toggle Zen mode": false,
+      "iconic:Open rulebook": false,
+      "homepage:Open homepage": true,
+      "astro-composer:Open project terminal": false,
+      "obsidian42-brat:BRAT": true
+    }
+  },
+  "active": "8fe67c054a95e3cf",
+  "lastOpenFiles": [
+    "posts/theme-guide.md",
+    "bases/Home.base",
+    "posts/KaTeX-example.md",
+    "about/about.md",
+    "bases",
+    "_vault-cms-guide.md",
+    "attachments",
+    "posts/Untitled.md",
+    "pages/contact.md",
+    "pages/thank-you.md",
+    "docs/documentation-test/index.md",
+    "docs/documentation-test",
+    "pages/new-page.md",
+    "posts/new-blog-post.md",
+    "pages/sweet-page.md",
+    "posts/test-behavior.md",
+    "pages/privacy-policy.md",
+    "pages/special-page.md",
+    "posts/test.md",
+    "projects/sweet.md",
+    "projects/test-2.md",
+    "projects/Untitled.md",
+    "projects/new-project.md",
+    "projects/test.md",
+    "posts/test-page.md",
+    "pages/test.md",
+    "posts/vault-cms-guide.md",
+    "docs/test.md",
+    "special/home.md",
+    "posts/attachments/vault-cms-cover.png",
+    "docs/attachments/obsidian-cover.png",
+    "docs/attachments/astro-modular-configuration.png",
+    "docs/attachments/astro-modular-configuration.png",
+    "docs/index.base",
+    "docs/configuration/astro-modular-configuration.png",
+    "docs/api",
+    "docs/configuration",
+    "posts/attachments/trees.png",
+    "bases/Untitled.base",
+    "posts/attachments/astro-obsidian.png",
+    "bases/A Base.base",
+    "posts/attachments/sunset.jpg",
+    "posts/attachments/sunset.png",
+    "posts/attachments/video.mp4",
+    "Cheese.canvas",
+    "Test.canvas"
+  ]
+}

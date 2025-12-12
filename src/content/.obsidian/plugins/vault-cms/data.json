@@ -1,0 +1,97 @@
+{
+  "projectRoot": "../..",
+  "configFilePath": "../config.ts",
+  "contentTypes": [
+    {
+      "id": "content-type-1765495457406-zbujp1iho",
+      "name": "About",
+      "folder": "about",
+      "fileOrganization": "file",
+      "enabled": false,
+      "indexFileName": "index"
+    },
+    {
+      "id": "content-type-1765495061807-msx01eagi",
+      "name": "Posts",
+      "folder": "posts",
+      "fileOrganization": "file",
+      "indexFileName": "index",
+      "linkBasePath": "/",
+      "enabled": true
+    }
+  ],
+  "frontmatterProperties": {
+    "content-type-1765495061807-msx01eagi": {
+      "titleProperty": "title",
+      "dateProperty": "pubDate",
+      "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n"
+    }
+  },
+  "preset": "vanilla",
+  "enableWYSIWYG": false,
+  "enabledPlugins": [
+    "astro-composer",
+    "bases-cms",
+    "cmdr",
+    "new-tab-default-page",
+    "editing-toolbar",
+    "homepage",
+    "obsidian-paste-image-rename",
+    "property-over-file-name",
+    "seo",
+    "simple-focus",
+    "statusbar-organizer",
+    "zenmode",
+    "iconic",
+    "settings-search",
+    "simple-banner",
+    "tag-wrangler",
+    "insert-unsplash-image",
+    "paste-image-into-property"
+  ],
+  "disabledPlugins": [],
+  "theme": "",
+  "basesCMSConfig": {
+    "views": []
+  },
+  "astroComposerConfig": {
+    "customContentTypes": [
+      {
+        "id": "content-type-1765495061807-msx01eagi",
+        "name": "Posts",
+        "folder": "posts",
+        "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
+        "enabled": true,
+        "linkBasePath": "/",
+        "creationMode": "file",
+        "indexFileName": "index"
+      }
+    ],
+    "defaultTemplate": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
+    "configFilePath": "../config.ts",
+    "terminalProjectRootPath": "../..",
+    "postsFolder": "posts",
+    "postsCreationMode": "file",
+    "postsIndexFileName": "index"
+  },
+  "seoConfig": {
+    "titleProperty": "title",
+    "scanDirectories": "posts",
+    "keywordProperty": "targetKeyword",
+    "useFilenameAsTitle": false,
+    "useFilenameAsSlug": true
+  },
+  "commanderConfig": {
+    "pageHeaderCommands": []
+  },
+  "propertyOverFileName": {
+    "propertyKey": "title"
+  },
+  "imageInserter": {
+    "valueFormat": "[[attachments/{image-url}]]",
+    "insertFormat": "[[attachments/{image-url}]]"
+  },
+  "runWizardOnStartup": true,
+  "wizardCompleted": true,
+  "defaultContentTypeId": "content-type-1765495061807-msx01eagi"
+}
